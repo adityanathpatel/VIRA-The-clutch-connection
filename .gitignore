@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Submodule directory
+VIRA-The-clutch-connection/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build output
+client/dist/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+*.swp
+*.swo
